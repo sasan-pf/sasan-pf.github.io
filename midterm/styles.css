@@ -1,0 +1,2052 @@
+/* FIRST I TARGET THESE ITEMS TO FORMAT FOR ALL THE FILE */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: raleway;
+}
+
+/* USE THIS CODE FOR SCROLLING SMOOTHLY */
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+}
+
+/* DESIGNING THE NAVIGATION BAR */
+header {
+    background: #3C3B3A;
+    height: 225px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 225px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    width: 88.04px;
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.navbar li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #F2F2F2;
+    margin: auto;
+    font-size: 16px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* END OF NAVIGATION BAR DESIGNING */
+
+
+/* DESIGNING THE MAIN SECTION */
+.showcase h1 {
+    width: 301px;
+    font-size: 40px;
+    margin: auto;
+    height: 94px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.showcase p {
+    width: 301px;
+    height: 131px;
+    margin: auto;
+    font-size: 20px;
+
+}
+
+/* I USED GRID TO PUT THE ICONS SAME AS WHAT WE HAVE IN XD MOBILE VIEW */
+figure {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 25px;
+    margin-bottom: 40px;
+}
+
+figure div {
+    margin: auto;
+    text-align: center;
+}
+
+figure div img {
+    width: 38.69px;
+    margin-bottom: 10px;
+    animation: bounce-in-top 1.1s both;
+
+}
+
+.icons p {
+    font-size: 17px;
+    color: #26A682;
+    animation: bounce-in-top 1.1s both;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.btn button {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #26A682;
+    color: #F2F2F2;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 40px;
+    box-shadow: 5px 5px 20px 0px #124A3A;
+}
+
+.btn button:hover {
+    animation: scale-down-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.discover {
+    display: flex;
+    justify-content: center;
+}
+
+.discover img {
+    width: 300px;
+    height: 187px;
+    margin-bottom: 30px;
+}
+
+/* END OF MAIN SECTION DESIGNING */
+
+
+/* DESIGNING ASIDE-CONTENT SECTION */
+.school img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.discover-1 {
+    display: block;
+    padding-bottom: 30px;
+}
+
+.discover-1 h2 {
+    font-size: 32px;
+    margin-left: 37.100px;
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.discover-1 h3 {
+    font-size: 24px;
+    margin-left: 37.100px;
+    color: #26A682;
+    margin-bottom: 20px;
+}
+
+.discover-1 p {
+    font-size: 16px;
+    font-weight: lighter;
+    width: 300px;
+    margin: auto;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.btn-1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin: auto;
+}
+
+.btn-1 button {
+    width: 146px;
+    height: 45px;
+    border: none;
+    background-color: #26A682;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F2F2F2;
+    border-radius: 30px;
+    font-size: 20px;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+.btn-1 button:hover {
+    animation: heartbeat 0.8s ease-in-out infinite both;
+}
+
+.president {
+    width: 100%;
+    height: 637px;
+    background-color: #3C3B3A;
+}
+
+.girl {
+    padding-top: 20px;
+}
+
+.girl img {
+    width: 175px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.girl h3 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F2F2F2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.simon p {
+    font-size: 16px;
+    color: #F2F2F2;
+    line-height: 35px;
+    margin: auto;
+    width: 300px;
+    height: auto;
+}
+
+.entertain img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #3C3B3A;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 24px;
+    color: #F2F2F2;
+    margin-bottom: 5px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul li:hover {
+    animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+.footer ul li:nth-child(1) img {
+
+    margin-right: 10px;
+}
+
+.footer ul li:nth-child(2) img {
+
+    margin-right: 10px;
+}
+
+.footer ul li:nth-child(3) img {
+
+    margin-right: 10px;
+}
+
+.scroll {
+    position: absolute;
+    right: 10px;
+}
+
+.gotopbtn img {
+    width: 23px;
+}
+
+.gotopbtn p {
+    font-size: 9px;
+}
+
+/* iUSED THIS ANIMATION FOR SOCIAL MEDIA LINK */
+@keyframes scale-down-center {
+    0% {
+        transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.5);
+        transform: scale(0.5);
+    }
+}
+
+/* I USED THIS ANIMATION FOR BUTTONS IN HOME PAGE */
+@keyframes heartbeat {
+
+    from {
+        transform: scale(1);
+        transform: scale(1);
+        transform-origin: center center;
+        transform-origin: center center;
+        animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        transform: scale(0.91);
+        transform: scale(0.91);
+        animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        transform: scale(0.98);
+        transform: scale(0.98);
+        animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        transform: scale(0.87);
+        transform: scale(0.87);
+        animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        transform: scale(1);
+        transform: scale(1);
+        animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+/* I USED THIS ANIMATION FOR MAIN-1 SECTION ( RELOAD THE PAGE PLEASE ) */
+@keyframes bounce-in-top {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    38% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    55% {
+        -webkit-transform: translateY(-65px);
+        transform: translateY(-65px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    72% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    81% {
+        -webkit-transform: translateY(-28px);
+        transform: translateY(-28px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    90% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    95% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+
+
+/* ABOUT PAGE */
+
+.showcase-about {
+    width: 100%;
+    height: auto;
+}
+
+.showcase-about h1 {
+    width: 302px;
+    height: 145px;
+    margin: auto;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.showcase-about .construction {
+    width: 302px;
+    height: 135px;
+    line-height: 35px;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.showcase-about .current {
+    width: 302px;
+    height: auto;
+    line-height: 35px;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+div.construction-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+div.construction-img img {
+    width: 301px;
+    height: 181.14px;
+    margin: auto;
+    display: block;
+}
+
+.about {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.overlay {
+    width: 100%;
+    height: 200px;
+    background-color: #26A682;
+    opacity: .5;
+    position: absolute;
+}
+
+.about h1 {
+    color: #F2F2F2;
+    font-size: 50px;
+    z-index: 1;
+}
+
+.aside-about {
+    width: 100%;
+}
+
+.aside-about h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px;
+    margin-left: 36.500px;
+    margin-bottom: 15px;
+}
+
+.aside-about p {
+    width: 302px;
+    height: auto;
+    line-height: 35px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.services {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/services.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.overlay-services {
+    width: 100%;
+    height: 200px;
+    background-color: #26A682;
+    opacity: .5;
+    position: absolute;
+}
+
+.services h1 {
+    color: #F2F2F2;
+    font-size: 50px;
+    z-index: 1;
+}
+
+.break {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.break h2 {
+    height: 37px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 36.500px;
+}
+
+.break h3 {
+    height: 29px;
+    font-size: 24px;
+    color: #26A682;
+    margin-left: 36.500px;
+    margin-bottom: 10px;
+}
+
+.break p {
+    width: 302px;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 35px;
+}
+
+.friends {
+    width: 100%;
+    height: auto;
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.friends h2 {
+    height: 37px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 36.500px;
+}
+
+.friends h3 {
+    height: 29px;
+    font-size: 24px;
+    color: #26A682;
+    margin-left: 36.500px;
+    margin-bottom: 10px;
+}
+
+.friends p {
+    width: 302px;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 35px;
+}
+
+.subscribe {
+    width: 100%;
+    height: 120px;
+    background-color: #3C3B3A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subscribe p {
+    color: #F2F2F2;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.subscribe button {
+    width: 140px;
+    height: 35px;
+    border: none;
+    background: #26A682;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.subscribe button:hover {
+    animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+.new-year {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.new-year h2 {
+    height: 37px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 36.500px;
+}
+
+.new-year h3 {
+    height: 29px;
+    font-size: 24px;
+    color: #26A682;
+    margin-left: 36.500px;
+    margin-bottom: 10px;
+}
+
+.new-year p {
+    width: 302px;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.climbing {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    background-color: #F2F2F2;
+}
+
+.climbing h2 {
+    height: 37px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 36.500px;
+}
+
+.climbing h3 {
+    height: 29px;
+    font-size: 24px;
+    color: #26A682;
+    margin-left: 36.500px;
+    margin-bottom: 10px;
+}
+
+.climbing p {
+    width: 302px;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+.special {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.special p {
+    font-size: 56px;
+    font-weight: bold;
+    width: 302px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.special .sa {
+    width: 301px;
+    height: 87px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.special .ac {
+    width: 202px;
+    height: 168px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.special .pcl {
+    width: 220px;
+    height: 154px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.special .cibc {
+    width: 152px;
+    height: 138px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+/* CONTACT PAGE */
+
+.main-contact,
+.showcase-contact {
+    width: 375px;
+    height: auto;
+}
+
+.showcase-contact h1 {
+    width: 302px;
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.showcase-contact p {
+    font-size: 20px;
+    margin: auto;
+    width: 302px;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+.contact-img {
+    width: 375px;
+    height: auto;
+}
+
+.contact-img img {
+    width: 302px;
+    height: 203.96px;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-us {
+    width: 375px;
+    height: auto;
+}
+
+.contact-form {
+    width: 304px;
+    height: auto;
+    margin: auto;
+    background: #26A682;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.contact-form .title {
+    padding-top: 20px;
+}
+
+.contact-form .title h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #F2F2F2;
+    margin-left: 14.500px;
+    margin-bottom: 10px;
+}
+
+.inner-form input {
+    width: 275px;
+    height: 40px;
+    border: none;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #3C3B3A;
+}
+
+.inner-form .label {
+    margin-left: 14.500px;
+    margin-bottom: 5px;
+    color: #F2F2F2;
+}
+
+.inner-form textarea {
+    width: 275px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-contact {
+    width: 304px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.btn-contact button {
+    width: 270px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    background-color: #3C3B3A;
+    color: #F2F2F2;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-contact button:hover {
+    animation: scale-down-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.location {
+    width: 375px;
+    height: auto;
+}
+
+.algonquin-location {
+    width: 301px;
+    height: auto;
+    margin: auto;
+}
+
+.algonquin-location h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #3C3B3A;
+    margin-bottom: 20px;
+}
+
+.algonquin-location h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.algonquin-location p {
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+.scroll-down {
+    display: none;
+}
+
+.break .break-img img {
+    display: none;
+}
+
+.freinds-img {
+    display: none;
+}
+
+.climbing-img,
+.new-year-img {
+    display: none;
+}
+
+@keyframes slide-in-fwd-center {
+    0% {
+        transform: translateZ(-1400px);
+        transform: translateZ(-1400px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+
+/* FIRST MEDIA QUERY */
+
+@media (min-width: 768px) {
+
+    header {
+        width: 100%;
+        height: 75px;
+        margin-bottom: 40px;
+    }
+
+    .header {
+        width: 100%;
+        height: 75px;
+        display: flex;
+    }
+
+    .navbar {
+        width: 608px;
+        height: 55px;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-left: 30px;
+    }
+
+    /* HOME PAGE */
+
+    .showcase h1 {
+        width: 607px;
+        font-size: 72px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .showcase p {
+        width: 607px;
+        font-size: 24px;
+        margin-bottom: 40px;
+        height: auto;
+    }
+
+    .icons figure {
+        display: flex;
+        width: 607px;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    figure div {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .btn {
+        height: 65px;
+    }
+
+    .btn button {
+        height: 65px;
+        font-size: 40px;
+    }
+
+    .discover {
+        height: 277px;
+        margin-bottom: 30px;
+    }
+
+    .discover img {
+        width: 350px;
+        height: 277px;
+    }
+
+    .scroll-down {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .godownbtn img {
+        width: 26px;
+        transform: scaleY(-1);
+    }
+
+    .school img {
+        width: 100%;
+    }
+
+    .discover-1 {
+        width: 608px;
+        margin: auto;
+    }
+
+    .discover-1 p {
+        width: 608px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .discover-1 h2,
+    .discover-1 h3 {
+        margin-left: 0;
+    }
+
+    .discover-1 h2 {
+        font-size: 40px;
+    }
+
+    .discover-1 h3 {
+        font-size: 32px;
+    }
+
+    .btn-1 {
+        margin-right: 0;
+    }
+
+    .btn-1 button {
+        width: 230px;
+        font-size: 27px;
+    }
+
+    .president {
+        width: 100%;
+        height: 445px;
+        display: flex;
+    }
+
+    .president-1 {
+        width: 608px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .simon {
+        height: 365px;
+    }
+
+    .simon p {
+        width: 374px;
+        height: 365px;
+        font-size: 24px;
+    }
+
+    .girl {
+        padding-top: 0;
+    }
+
+    .girl img {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .entertain img {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    /* ABOUT PAGE */
+
+    .main-about {
+        height: auto;
+    }
+
+    .showcase-about {
+        width: 608px;
+        margin: auto;
+    }
+
+    .showcase-about h1 {
+        font-size: 72px;
+        width: 100%;
+        height: auto;
+    }
+
+    .showcase-about p.construction {
+        width: 100%;
+        height: auto;
+    }
+
+    .showcase-about p.current {
+        width: 100%;
+        height: auto;
+    }
+
+    div.construction-img img {
+        width: 573.74px;
+        height: auto;
+    }
+
+    .aside-about {
+        height: auto;
+    }
+
+    .aside-about div {
+        width: 608px;
+        margin: auto;
+    }
+
+    .aside-about div h2 {
+        margin-left: 0;
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .aside-about div p {
+        width: 100%;
+        margin: 0;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+
+    .friends {
+        height: 500px;
+        display: flex;
+    }
+
+    .friends .freinds-1 {
+        display: flex;
+        margin: auto;
+        width: 608px;
+        height: 375px;
+        justify-content: space-between;
+    }
+
+    .freinds-content h2 {
+        font-size: 37px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .freinds-content h3 {
+        font-size: 32px;
+        height: auto;
+
+        margin-left: 0;
+    }
+
+    .freinds-content p {
+        font-size: 18px;
+        width: 350px;
+        margin: 0;
+    }
+
+    .break {
+        height: 500px;
+        display: flex;
+    }
+
+    .break-1 {
+        width: 608px;
+        height: 374px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .break-1 .break-img picture img {
+        display: block;
+        width: 218px;
+        height: 374px;
+    }
+
+    .break-content {
+        width: 374px;
+        height: 374px;
+    }
+
+    .break-content h2 {
+        font-size: 40px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .break-content h3 {
+        font-size: 32px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .break-content p {
+        font-size: 18px;
+        width: auto;
+        height: 270px;
+        margin: 0;
+    }
+
+    .freinds-img {
+        display: block;
+    }
+
+    .freinds-img picture img {
+        display: block;
+        width: 218px;
+        height: 375px;
+    }
+
+    .subscribe div {
+        display: flex;
+        width: 608px;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .subscribe div p {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    button.subscribe-btn {
+        font-size: 24px;
+        height: 45px;
+    }
+
+    .new-year {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        padding-top: 0;
+    }
+
+    .new-year-1 {
+        width: 608px;
+        height: 375px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .new-year-img {
+        display: block;
+    }
+
+    .new-year-img img {
+        width: 218px;
+        height: 375px;
+    }
+
+    .new-year-content {
+        width: 374px;
+        height: 374px;
+    }
+
+    .new-year-content h2 {
+        font-size: 40px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .new-year-content h3 {
+        font-size: 32px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .new-year-content p {
+        height: auto;
+        font-size: 18px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .climbing {
+        height: 500px;
+        display: flex;
+        padding-top: 0;
+    }
+
+    .climbing-1 {
+        width: 608px;
+        height: 378px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+
+    .climbing-content {
+        width: 374px;
+        height: 372px;
+    }
+
+    .climbing-content h2 {
+        font-size: 40px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .climbing-content h3 {
+        font-size: 32px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .climbing-content p {
+        width: 100%;
+        font-size: 18px;
+        padding-bottom: 0;
+    }
+
+    .climbing-img {
+        display: block;
+    }
+
+    .climbing-img img {
+        width: 218px;
+        height: 378px;
+        display: block;
+    }
+
+    .special {
+        height: 1000px;
+        display: flex;
+        padding-top: 0;
+    }
+
+    .special div {
+        width: 608px;
+        height: 898px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .special div p {
+        width: 608px;
+        font-size: 56px;
+        height: 135px;
+        line-height: 66px;
+    }
+
+    .special div ul li img.sa {
+        width: 435px;
+        height: 125px;
+    }
+
+    /* CONTACT PAGE */
+
+    .main-contact {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .main-contact .main-contact-content {
+        width: 608px;
+        height: auto;
+        margin: auto;
+    }
+
+    .showcase-contact {
+        width: 100%;
+    }
+
+    .showcase-contact h1 {
+        width: 608px;
+        font-size: 72px;
+    }
+
+    .showcase-contact p {
+        width: 608px;
+        font-size: 24px;
+        height: 75px;
+        overflow: hidden;
+    }
+
+    .contact-img {
+        width: 100%;
+    }
+
+    .contact-img img {
+        width: 452px;
+        height: auto;
+    }
+
+    .contact-us {
+        width: 608px;
+        height: auto;
+        background: #26A682;
+        border-radius: 30px;
+    }
+
+    div.contact-form {
+        width: 516px;
+        height: auto;
+        margin: auto;
+    }
+
+    .contact-form .title h3 {
+        font-size: 72px;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .inner-form .label {
+        font-size: 24px;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+    .inner-form input {
+        width: 516px;
+        height: 50px;
+        border-radius: 40px;
+        margin-bottom: 15px;
+    }
+
+    .inner-form textarea {
+        width: 516px;
+        height: 148px;
+    }
+
+    .btn-contact {
+        width: 100%;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .btn-contact button {
+        width: 210px;
+        height: 65px;
+        font-size: 40px;
+        border-radius: 30px;
+        margin: 0;
+    }
+
+    .location {
+        width: 100%;
+        height: 958px;
+    }
+
+    .algonquin-location {
+        width: 608px;
+        padding-top: 20px;
+    }
+
+    .algonquin-location h2 {
+        height: 86px;
+        font-size: 72px;
+    }
+
+    .algonquin-location h3 {
+        height: 98px;
+        font-size: 40px;
+    }
+
+    .algonquin-location p {
+        height: 181px;
+        font-size: 18px;
+    }
+
+    .map {
+        height: 500px;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 500px;
+    }
+
+
+
+    @media (min-width: 1920px) {
+        .navbar {
+            width: 1641px;
+        }
+
+        .navbar ul li a {
+            font-size: 18px;
+        }
+
+        .main {
+            width: 100%;
+        }
+
+        .main-1 {
+            width: 1641px;
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+            padding-top: 50px;
+        }
+
+        .main-1 .main-2 {
+            width: 536px;
+            height: 589px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+        .showcase {
+            width: 536px;
+        }
+
+        .showcase p {
+            width: 536px;
+        }
+
+        .icons figure {
+            width: 536px;
+        }
+
+        .btn {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .btn button {
+            width: 340px;
+        }
+
+        .discover {
+            height: auto;
+        }
+
+        .main-1 .discover-img {
+            width: 951px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .discover-img img {
+            width: 951px;
+            height: auto;
+        }
+
+        .scroll-down .godownbtn img {
+            width: 50px;
+        }
+
+        .aside .aside-content {
+            background-color: #F2F2F2;
+            display: flex;
+            align-items: center;
+            height: 500px;
+
+        }
+
+        .aside-1,
+        .aside-2 {
+            display: flex;
+            width: 1641px;
+            margin: auto;
+            align-items: center;
+            height: 337px;
+            justify-content: space-between;
+        }
+
+        .aside-2 {
+            flex-direction: row-reverse;
+        }
+
+
+
+        .school {
+            height: 337px;
+        }
+
+        .school picture img {
+            width: 813px;
+            height: 337px;
+            margin-bottom: 0;
+        }
+
+        .discover-1 {
+            width: 813px;
+            margin: 0;
+            position: relative;
+            height: 337px;
+        }
+
+        .btn-1 {
+            height: 45px;
+            margin-bottom: 0;
+        }
+
+        .btn-1 button {
+            position: absolute;
+            bottom: 0;
+        }
+
+
+        .discover-1 p {
+            width: 100%;
+        }
+
+        .president {
+            height: 250px;
+        }
+
+        .president-1 {
+            width: 1641px;
+            height: 175px;
+            display: flex;
+            align-items: center;
+        }
+
+        .girl {
+            display: flex;
+            align-items: center;
+            width: 450px;
+            justify-content: space-between;
+        }
+
+        .girl img {
+            height: 175px;
+            margin: 0;
+        }
+
+        .girl h3 {
+            margin-bottom: 0;
+        }
+
+        .simon {
+            width: 1089px;
+            height: 140px;
+        }
+
+        .simon p {
+            width: 100%;
+            height: 140px;
+        }
+
+        .president {
+            height: 250px;
+        }
+
+        .president-1 {
+            width: 1641px;
+            height: 175px;
+            display: flex;
+            align-items: center;
+        }
+
+        .girl {
+            display: flex;
+            align-items: center;
+        }
+
+        .girl img {
+            height: 175px;
+            margin-bottom: 0;
+        }
+
+        .simon {
+            width: 1089px;
+            height: 140px;
+        }
+
+        .simon p {
+            width: 100%;
+            height: 140px;
+        }
+
+        .scroll {
+            right: 30px;
+        }
+
+        .scroll .gotopbtn img {
+            width: 50px;
+        }
+
+        /* END OF HOME PAGE DESIGNING FOR DESKTOP VIEW */
+
+
+
+        /* STARTING DESIGNING ABOUT PAGE FOR DESKTOP VIEW */
+        header {
+            margin-bottom: 0;
+        }
+
+        .main-about-content {
+            width: 1641px;
+            margin: auto;
+            display: flex;
+            height: 800px;
+            align-items: center;
+        }
+
+        .showcase-about {
+            width: 812px;
+        }
+
+        .showcase-about p {
+            font-size: 24px;
+        }
+
+        div.construction-img {
+            width: 820px;
+        }
+
+        div.construction-img img {
+            width: 817px;
+            margin: 0;
+        }
+
+        .about,
+        .overlay,
+        .services,
+        .overlay-services {
+            height: 250px;
+            margin-bottom: 0;
+        }
+
+        .about h1,
+        .services h1 {
+            font-size: 72px;
+        }
+
+        .aside-about {
+            height: 750px;
+        }
+
+        div.aside-about-content {
+            width: 1641px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 750px;
+        }
+
+        .aside-about-content .who {
+            width: 500px;
+            height: 300px;
+        }
+
+        .break,
+        .friends {
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+
+        .break-1,
+        .friends .freinds-1,
+        .new-year-1,
+        .climbing-1 {
+            width: 1641px;
+            height: 337px;
+        }
+
+        .break-img,
+        .break-1 .break-img picture img,
+        .break-content,
+        .freinds-img,
+        .freinds-1 .freinds-img picture img,
+        .freinds-1 .freinds-content,
+        .new-year-img,
+        .new-year-img picture img,
+        .new-year-content,
+        .climbing-content,
+        .climbing-img,
+        .climbing-img img {
+            width: 813px;
+            height: 337px;
+        }
+
+        .freinds-1 .freinds-content p {
+            width: 100%;
+        }
+
+        .subscribe {
+            height: 100px;
+        }
+
+        .subscribe div {
+            width: 50%;
+        }
+
+        .subscribe div p {
+            font-size: 40px;
+        }
+
+        .subscribe div ul li button {
+            width: 232px;
+            font-size: 27px;
+        }
+
+        .special {
+            height: 700px;
+        }
+
+        .special div {
+            width: 1640px;
+            height: 424px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .special p {
+            width: 30%;
+            margin: 0 auto;
+        }
+
+        .special div ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .special div ul img {
+            margin-bottom: 0;
+        }
+
+        div.container div.special div ul li img.ac,
+        div.container div.special div ul li img.sa,
+        div.container div.special div ul li img.pcl,
+        div.container div.special div ul li img.cibc {
+            margin-bottom: 0;
+        }
+
+        /* ABOUT PAGE DONE */
+
+
+        /* START TO DESIGNING CONTACT PAGE FOR DESKTOP VIEW */
+
+        .main-contact {
+            height: 1058px;
+            display: flex;
+            align-items: center;
+        }
+
+        .main-contact .main-contact-content {
+            width: 1640px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .showcase-contact {
+            width: 950px;
+        }
+
+        .showcase-contact h1 {
+            width: 812px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .showcase-contact p {
+            width: 950px;
+        }
+
+        .contact-img img {
+            width: 724px;
+        }
+
+        .contact-us {
+            width: 628px;
+        }
+
+        .location {
+            height: 755px;
+            display: flex;
+            align-items: center;
+        }
+
+        .location .location-content {
+            width: 1640px;
+            height: 505px;
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+        }
+
+        .algonquin-location {
+            width: 812px;
+            padding-top: 0;
+        }
+
+        .algonquin-location h3 {
+            height: auto;
+        }
+
+        .map iframe {
+            width: 812px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
