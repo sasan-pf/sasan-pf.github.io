@@ -1,3 +1,6 @@
+/* FOR THE MOST PART OF THIS ASSIGNMENT I USED DISPLAY FLEX */
+/* I USED EXACT WIDTH AND HEIGHT WHICH ARE DEFINED IN XD FILE */ 
+
 /* FIRST I TARGET THESE ITEMS TO FORMAT FOR ALL THE FILE */
 * {
     box-sizing: border-box;
@@ -126,7 +129,7 @@ figure div img {
     border-radius: 40px;
     box-shadow: 5px 5px 20px 0px #124A3A;
 }
-
+/* I USED THIS ANIMATION FOR THIS BTN WHEN HOVERS */
 .btn button:hover {
     animation: scale-down-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -187,7 +190,7 @@ figure div img {
     width: 300px;
     margin: auto;
 }
-
+/* I USED THIS 2 ANIMATIONS FOR THIS BUTTON */
 .btn-1 button {
     width: 146px;
     height: 45px;
@@ -247,7 +250,7 @@ figure div img {
     height: 200px;
     margin-bottom: 30px;
 }
-
+ /* FOOOTER DESIGN */
 .footer {
     background-color: #3C3B3A;
     width: 100%;
@@ -264,12 +267,14 @@ figure div img {
     margin-bottom: 5px;
 }
 
+/* USED DISPLAY FLEX TO PUT SOCIAL ICONS BESIDE EACH OTHE */
 .footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* USED THIS ANIMATION FOR SOCIAL ICONS */
 .footer ul li:hover {
     animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -303,7 +308,7 @@ figure div img {
     font-size: 9px;
 }
 
-/* iUSED THIS ANIMATION FOR SOCIAL MEDIA LINK */
+/* I USED THIS ANIMATION FOR SOCIAL MEDIA LINK */
 @keyframes scale-down-center {
     0% {
         transform: scale(1);
@@ -514,6 +519,7 @@ div.construction-img img {
     margin-bottom: 30px;
 }
 
+/* I used background image and overlay to make these 2 pictures as we have in xd file */
 .services {
     width: 100%;
     height: 200px;
