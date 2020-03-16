@@ -1864,11 +1864,11 @@ div.construction-img img {
         div.container div.special div ul li img.cibc {
             margin-bottom: 0;
         }
-
         /* ABOUT PAGE DONE */
 
 
         /* START TO DESIGNING CONTACT PAGE FOR DESKTOP VIEW */
+        /* USED DISPLAY FLEX TO DESIGN LIKE THE XD FILE */
 
         .main-contact {
             height: 1058px;
@@ -1876,30 +1876,36 @@ div.construction-img img {
             align-items: center;
         }
 
+         /* USED EXACT WIDTH */
         .main-contact .main-contact-content {
             width: 1640px;
             display: flex;
             justify-content: space-between;
         }
 
+         /* USED EXACT WIDTH */
         .showcase-contact {
             width: 950px;
         }
 
+         /* USED EXACT WIDTH */
         .showcase-contact h1 {
             width: 812px;
             margin-left: 0;
             margin-right: 0;
         }
 
+         /* USED EXACT WIDTH */
         .showcase-contact p {
             width: 950px;
         }
 
+         /* USED EXACT WIDTH */
         .contact-img img {
             width: 724px;
         }
 
+         /* USED EXACT WIDTH */
         .contact-us {
             width: 628px;
         }
@@ -1910,6 +1916,7 @@ div.construction-img img {
             align-items: center;
         }
 
+         /* USED EXACT WIDTH */
         .location .location-content {
             width: 1640px;
             height: 505px;
@@ -1917,7 +1924,8 @@ div.construction-img img {
             margin: auto;
             justify-content: space-between;
         }
-
+        
+        /* USED EXACT WIDTH */
         .algonquin-location {
             width: 812px;
             padding-top: 0;
@@ -1927,6 +1935,7 @@ div.construction-img img {
             height: auto;
         }
 
+        /* USED EXACT WIDTH */
         .map iframe {
             width: 812px;
         }
