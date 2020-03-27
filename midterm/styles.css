@@ -1786,6 +1786,7 @@ div.construction-img img {
             padding-top: 0;
         }
 
+         /* USED EXACT WIDTH */
         .break-1,
         .friends .freinds-1,
         .new-year-1,
@@ -1794,6 +1795,7 @@ div.construction-img img {
             height: 337px;
         }
 
+         /* USED EXACT WIDTH */
         .break-img,
         .break-1 .break-img picture img,
         .break-content,
@@ -1826,6 +1828,7 @@ div.construction-img img {
             font-size: 40px;
         }
 
+         /* USED EXACT WIDTH */
         .subscribe div ul li button {
             width: 232px;
             font-size: 27px;
@@ -1835,6 +1838,7 @@ div.construction-img img {
             height: 700px;
         }
 
+         /* USED EXACT WIDTH */
         .special div {
             width: 1640px;
             height: 424px;
